@@ -1,0 +1,37 @@
+#header{
+    text-align: center;
+    border-top: 1px solid red;
+}
+
+#toDo {
+    font-family: Arial;
+}
+
+#toDo .done {
+    color:red;
+    text-decoration:line-through;
+}
+
+#toDo .undone {
+    cursor: pointer;
+}
+
+.todo-item {
+    margin-bottom: 10px;
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 27px;
+    padding-left: 0px;
+  }
+  
+    
+  .deleteButton {
+    border-radius: 50%;
+    background-color: #df392e;
+    padding: 1px 7px 1px 7px;
+    color: #fff;
+    font-size: .7em;
+    border-color: #df392e;
+  }
